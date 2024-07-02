@@ -86,52 +86,39 @@
 
 
 //Act 7//
-let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
+// let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
 
-const vowels = "aeiouAEIOU";
+// const vowels = "aeiouAEIOU";
 
-let lastVowelIndex = -1;
+// let lastVowelIndex = -1;
 
-for (let i = str.length - 1; i >= 0; i--) {
-    if (vowels.includes(str[i])) {
-        lastVowelIndex = i;
-        break;
-    }
-}
+// for (let i = str.length - 1; i >= 0; i--) {
+//     if (vowels.includes(str[i])) {
+//         lastVowelIndex = i;
+//         break;
+//     }
+// }
 
-console.log(`The index of the last vowel is: ${lastVowelIndex}`);
+// console.log(`The index of the last vowel is: ${lastVowelIndex}`);
 
 
 //Act 8//
 // let word = "level";
-
 // let isSame = word.length > 0 && word[0] === word[word.length - 1];
-
 // console.log(isSame);
-
-// //****OR****
-// function isFirstAndLastSame(word) {
-//     return word.length > 0 && word[0] === word[word.length - 1];
-// }
-
-// console.log(isFirstAndLastSame("radar"));
-// console.log(isFirstAndLastSame("hello"));
-// console.log(isFirstAndLastSame("level"));
-// console.log(isFirstAndLastSame("world"));
-// console.log(isFirstAndLastSame(""));
 
 
 //Act 9//
-// let num1 = 4;
-// let num2 = 8;
+let num1 = 4;
+let num2 = 5;
 
-// let sum = num1 + num2;
+let sum = num1 + num2;
 
-// let result;
-// if (sum % 2 === 0) {
-//     result = sum;
-// } else {
-//     result = num1 * num2;
-// }
+let result;
+if (sum % 2 === 0) {
+    result = sum;
+} else {
+    result = num1 * num2;
+}
 
-// console.log(result);
+console.log(result);
