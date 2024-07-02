@@ -7,6 +7,7 @@
 // console.log(songs)
 
 // songs.push("Home - GD & TOP")
+// songs.push("Break Stuff - Limp Bizkit")
 // console.log(songs)
 
 // songs.pop()
@@ -15,7 +16,7 @@
 
 
 //Activity 1.2
-// Define an array of numbers
+Define an array of numbers
 let numbers = [1, 2, 3, 4, 5];
 
 // Use map() to create a new array with each number doubled
@@ -29,8 +30,8 @@ console.log("Original numbers:", numbers);
 // Log the new array with doubled numbers
 console.log("Doubled numbers:", doubledNumbers);
 
-/////////or////////
-// Define an array of people objects
+///////or////////
+Define an array of people objects
 let people = [
     { name: "Alice", age: 25 },
     { name: "Bob", age: 30 },
@@ -51,9 +52,25 @@ console.log("Names:", names);
 
 
 
-//Activity 2.1
+// //Activity 2.1
+// let films = [
+//     "5 Centimeters Per Second",
+//     "Cloud Atlas",
+//     "Spiderman Homecoming",
+//     "What We Do In The Shadows",
+//     "Lord of the Rings: The Fellowship of the Ring",
+// ]
+// let index = 0;
+// while (index < films.length) {
+//     console.log(films[index]);
+//     index++;
+// }
+// films.push("Deadpool");
+// films.push("John Wick");
+// console.log(films);
 
-//Activity 2.2
+
+// //Activity 2.2
 // Loop to generate and log 6 random numbers between 1 and 50
 for (let i = 0; i < 6; i++) {
     // Generate a random number between 1 and 50
@@ -80,7 +97,7 @@ console.log("Random Numbers:", randomNumbers);
 
 
 
-//Activity 2.3
+// //Activity 2.3
 // Loop to count from 9 to 0
 for (let i = 9; i >= 0; i--) {
     console.log(i);
@@ -114,14 +131,14 @@ let counting = setInterval(countDown, 1000);
 
 
 
-//Activity 2.4
-///Display 4 films stored in an array. Use a for loop to show each film in the array. Use an if statement to check if the 3rd film in the array is Ghostbusters. If it is, return "Yay its Ghostbusters!". If it isn't return "Boo! We want Ghostbusters."
+// //Activity 2.4
+// ///Display 4 films stored in an array. Use a for loop to show each film in the array. Use an if statement to check if the 3rd film in the array is Ghostbusters. If it is, return "Yay its Ghostbusters!". If it isn't return "Boo! We want Ghostbusters."
 
-//Activity 2.5
-///Generate a random number between 1-30 six times. For each random number generated, check if this number is divisible by 7 or not. Log out a message to the console if it is divisible by 7 or not.
+// //Activity 2.5
+// ///Generate a random number between 1-30 six times. For each random number generated, check if this number is divisible by 7 or not. Log out a message to the console if it is divisible by 7 or not.
 
-//Activity 2.6
-///Imagine you're a programmer for a social media platform. You have been tasked with building a prototype for a mutual followers program. Create 2 arrays of followers e.g. bexsFollowers & GeorgesFollowers. In these arrays place 4 names as strings. Make sure there are 2 names that are in BOTH arrays. Using a nested loop iterate over both arrays and console.log out the matching followers.
+// //Activity 2.6
+// ///Imagine you're a programmer for a social media platform. You have been tasked with building a prototype for a mutual followers program. Create 2 arrays of followers e.g. bexsFollowers & GeorgesFollowers. In these arrays place 4 names as strings. Make sure there are 2 names that are in BOTH arrays. Using a nested loop iterate over both arrays and console.log out the matching followers.
 
-//Activity 2.7
-//Research on do...while loop, find out about the difference between for loop, while loop and do...while loop. Give an examples of each. Waht are the pros and cons?
+// //Activity 2.7
+// //Research on do...while loop, find out about the difference between for loop, while loop and do...while loop. Give an examples of each. Waht are the pros and cons?
