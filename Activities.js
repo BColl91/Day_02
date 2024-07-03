@@ -51,7 +51,7 @@
 
 
 //Act 5//
-// let num = 2002;
+// let num = 1010101;
 
 // let numStr = num.toString();
 // let reversedStr = numStr.split('').reverse().join('');
@@ -101,22 +101,22 @@
 
 
 //Act 8//
-// let word = "level";
-// let isSame = word.length > 0 && word[0] === word[word.length - 1];
-// console.log(isSame);
+let word = "level";
+let isSame = word.length > 0 && word[0] === word[word.length - 1];
+console.log(isSame);
 
 
 //Act 9//
-// let num1 = 4;
-// let num2 = 5;
+let num1 = 4;
+let num2 = 5;
 
-// let sum = num1 + num2;
+let sum = num1 + num2;
 
-// let result;
-// if (sum % 2 === 0) {
-//     result = sum;
-// } else {
-//     result = num1 * num2;
-// }
+let result;
+if (sum % 2 === 0) {
+    result = sum;
+} else {
+    result = num1 * num2;
+}
 
-// console.log(result);
+console.log(result);
