@@ -51,15 +51,15 @@
 
 
 //Act 5//
-let num = 2073;
+// let num = 2002;
 
-let numStr = num.toString();
-let reversedStr = numStr.split('').reverse().join('');
-if (numStr === reversedStr) {
-    console.log(`${num} is a palindrome.`);
-} else {
-    console.log(`${num} is not a palindrome.`);
-}
+// let numStr = num.toString();
+// let reversedStr = numStr.split('').reverse().join('');
+// if (numStr === reversedStr) {
+//     console.log(`${num} is a palindrome.`);
+// } else {
+//     console.log(`${num} is not a palindrome.`);
+// }
 
 
 // Act 6//
@@ -86,20 +86,18 @@ if (numStr === reversedStr) {
 
 
 //Act 7//
-let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
+// let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwsh";
+// const vowels = "aeiouAEIOU";
+// let lastVowelIndex = -1;
 
-const vowels = "aeiouAEIOU";
+// for (let i = str.length - 1; i >= 0; i--) {
+//     if (vowels.includes(str[i])) {
+//         lastVowelIndex = i;
+//         break;
+//     }
+// }
 
-let lastVowelIndex = -1;
-
-for (let i = str.length - 1; i >= 0; i--) {
-    if (vowels.includes(str[i])) {
-        lastVowelIndex = i;
-        break;
-    }
-}
-
-console.log(`The index of the last vowel is: ${lastVowelIndex}`);
+// console.log(`The index of the last vowel is: ${lastVowelIndex}`);
 
 
 //Act 8//
