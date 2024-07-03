@@ -16,39 +16,14 @@
 
 
 //Activity 1.2
-Define an array of numbers
-let numbers = [1, 2, 3, 4, 5];
+// let numbers = [1, 2, 3, 4, 5];
 
-// Use map() to create a new array with each number doubled
-let doubledNumbers = numbers.map(function(number) {
-    return number * 2;
-});
+// let doubledNumbers = numbers.map(function(number) {
+//     return number * 2;
+// });
 
-// Log the original array
-console.log("Original numbers:", numbers);
-
-// Log the new array with doubled numbers
-console.log("Doubled numbers:", doubledNumbers);
-
-///////or////////
-Define an array of people objects
-let people = [
-    { name: "Alice", age: 25 },
-    { name: "Bob", age: 30 },
-    { name: "Charlie", age: 35 }
-];
-
-// Use map() to create a new array with just the names
-let names = people.map(function(person) {
-    return person.name;
-});
-
-// Log the original array of people
-console.log("People:", people);
-
-// Log the new array of names
-console.log("Names:", names);
-
+// console.log("Original numbers:", numbers);
+// console.log("Doubled numbers:", doubledNumbers);
 
 
 
@@ -79,7 +54,7 @@ for (let i = 0; i < 6; i++) {
     // Log the random number to the console
     console.log(randomNumber);
 }
-//////OR///////////
+// //////OR///////////
 // Create an array to store the random numbers
 let randomNumbers = [];
 
@@ -97,35 +72,35 @@ console.log("Random Numbers:", randomNumbers);
 
 
 
-// //Activity 2.3
-// Loop to count from 9 to 0
-for (let i = 9; i >= 0; i--) {
-    console.log(i);
-}
-//////OR///////////
-// Initialize the counter
-let i = 9;
+// // //Activity 2.3
+// // Loop to count from 9 to 0
+// for (let i = 9; i >= 0; i--) {
+//     console.log(i);
+// }
+// //////OR///////////
+// // Initialize the counter
+// let i = 9;
 
-// Loop to count from 9 to 0
-while (i >= 0) {
-    console.log(i);
-    i--;
-}
-//////OR///////////
-// Initialize the counter
-let i = 9;
+// // Loop to count from 9 to 0
+// while (i >= 0) {
+//     console.log(i);
+//     i--;
+// }
+// //////OR///////////
+// // Initialize the counter
+// let i = 9;
 
-// Function to count down
-function countDown() {
-    console.log(i);
-    i--;
-    if (i < 0) {
-        clearInterval(counting);
-    }
-}
+// // Function to count down
+// function countDown() {
+//     console.log(i);
+//     i--;
+//     if (i < 0) {
+//         clearInterval(counting);
+//     }
+// }
 
-// Set interval to call countDown every 1000 milliseconds (1 second)
-let counting = setInterval(countDown, 1000);
+// // Set interval to call countDown every 1000 milliseconds (1 second)
+// let counting = setInterval(countDown, 1000);
 
 
 
