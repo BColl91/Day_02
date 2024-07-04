@@ -110,19 +110,19 @@
 // do {
 //   console.log(`Iteration number ${i}`);
 //   i++;
-// } while (i < 5);
-// // // Do..While Loop is useful at it will ensure to loop at least once regardless of its condition, but if said condition is meant to prevent any execution- this can lead to errors. Do..While loops are less commonly used. So others might not understand the code.//
+// } while (i < 10);
+//// Do..While Loop is useful as it will loop at least once regardless of its condition, but if said condition is meant to prevent any execution than this can lead to errors. Do..While loops are less commonly used, so others might not understand the code.//
 
 // //WHILE LOOP//
 // let i = 0;
-// while (i < 5) {
+// while (i < 10) {
 //   console.log(`Iteration number ${i}`);
 //   i++;
 // }
-// // //While loops are good for scenarios where the number of iterations is not known before hand and can potentially result in fewer iterations if the condition becomes fals early. The cons are that if the condition is never false, it can become an infinate loop.//
+////While loops are good for scenarios where the number of iterations is not known before hand and can be seen as more efficient coding. The cons are that if the condition is never false, it can become an infinate loop.//
 
 // //FOR LOOP//
-// for (let i = 0; i < 5; i++) {
+// for (let i = 0; i < 10; i++) {
 //     console.log(`Iteration number ${i}`);
 //   }
-// //   //For loops are clear and concise and can be easier to understand, as initialization, condition and increment/decrement are all in one place. This method is ideal for iterating over arrays. For loops can unfortunately be less readable when the loop logic is complex and is not suitable for situations where the number of iterations is not known beforehand.//
+////For loops are clear and concise which can be easier to understand, as initialization, condition and increment/decrement are all in one place. This method is ideal for arrays. For loops can unfortunately be less readable when the loop logic is complex.//
