@@ -46,74 +46,83 @@
 
 
 // //Activity 2.2
-// Loop to generate and log 6 random numbers between 1 and 50
-for (let i = 0; i < 6; i++) {
-    // Generate a random number between 1 and 50
-    let randomNumber = Math.floor(Math.random() * 50) + 1;
+// for (let i = 0; i < 6; i++) {
+//       let randomNumber = Math.floor(Math.random() * 50) + 1;
     
-    // Log the random number to the console
-    console.log(randomNumber);
-}
-// //////OR///////////
-// Create an array to store the random numbers
-let randomNumbers = [];
-
-// Loop to generate 6 random numbers between 1 and 50
-for (let i = 0; i < 6; i++) {
-    // Generate a random number between 1 and 50
-    let randomNumber = Math.floor(Math.random() * 50) + 1;
-    
-    // Add the random number to the array
-    randomNumbers.push(randomNumber);
-}
-
-// Log the array of random numbers to the console
-console.log("Random Numbers:", randomNumbers);
-
-
+//     console.log(randomNumber);
+// }
 
 // // //Activity 2.3
-// // Loop to count from 9 to 0
 // for (let i = 9; i >= 0; i--) {
 //     console.log(i);
 // }
-// //////OR///////////
-// // Initialize the counter
-// let i = 9;
 
-// // Loop to count from 9 to 0
-// while (i >= 0) {
-//     console.log(i);
-//     i--;
-// }
-// //////OR///////////
-// // Initialize the counter
-// let i = 9;
 
-// // Function to count down
-// function countDown() {
-//     console.log(i);
-//     i--;
-//     if (i < 0) {
-//         clearInterval(counting);
+// // //Activity 2.4
+// function displayFilms(films) {
+//     for (let i = 0; i < films.length; i++) {
+//       console.log(films[i]);
 //     }
+//      if (films[2] === "Ghostbusters") {
+//       return "Yay it's Ghostbusters!";
+//     } else {
+//       return "Boo! We want Ghostbusters.";
+//     }
+//   }
+
+//   const filmsList = ["Spiderman Homecoming", "Cloud Atlas", "Ghostbusters", "John Wick"];
+//   console.log(displayFilms(filmsList));
+//   console.log("")
+//   const filmsList2 = ["Spiderman Homecoming", "Cloud Atlas", "What We Do in the Shadows", "John Wick"];
+//   console.log(displayFilms(filmsList2));
+  
+
+
+// // //Activity 2.5
+// function checkDivisibilityBy7() {
+//     for (let i = 0; i < 6; i++) {
+//       let randomNum = Math.floor(Math.random() * 30) + 1;
+  
+//       if (randomNum % 7 === 0) {
+//         console.log(`${randomNum} is divisible by 7.`);
+//       } else {
+//         console.log(`${randomNum} is not divisible by 7.`);
+//       }
+//     }
+//   }
+  
+//   checkDivisibilityBy7();
+  
+
+// // //Activity 2.6
+// const bexsFollowers = ["Karlach", "Basil", "Ruby", "Connor"];
+// const georgesFollowers = ["Karlach", "Spyro", "Frank", "Ruby"];
+
+// for (let i = 0; i < bexsFollowers.length; i++) {
+//   for (let x = 0; x < georgesFollowers.length; x++) {
+//     if (bexsFollowers[i] === georgesFollowers[x]) {
+//       console.log(`Matching follower: ${bexsFollowers[i]}`);
+//     }
+//   }
 // }
 
-// // Set interval to call countDown every 1000 milliseconds (1 second)
-// let counting = setInterval(countDown, 1000);
 
+// // //Activity 2.7
+// let i = 0;
+// do {
+//   console.log(`Iteration number ${i}`);
+//   i++;
+// } while (i < 5);
+// // Do..While Loop guarantees that the loop body will be executed at least once and is useful when the loop needs to execute at least once regardless of the condition, but Ccn lead to logic errors if the condition is meant to prevent any execution, and is less commonly used, which can make code less familiar to other developers.
 
+// let i = 0;
+// while (i < 5) {
+//   console.log(`Iteration number ${i}`);
+//   i++;
+// }
+// //While loops are good for scenarios where the number of iterations is not known before hand and can potentially result in fewer iterations if the condition becomes fals early. The cons are that if the condition is never false, it can become an infinate loop. Initialization and increment or decrement must be handled seperately, which can cause errors.
 
-
-
-// //Activity 2.4
-// ///Display 4 films stored in an array. Use a for loop to show each film in the array. Use an if statement to check if the 3rd film in the array is Ghostbusters. If it is, return "Yay its Ghostbusters!". If it isn't return "Boo! We want Ghostbusters."
-
-// //Activity 2.5
-// ///Generate a random number between 1-30 six times. For each random number generated, check if this number is divisible by 7 or not. Log out a message to the console if it is divisible by 7 or not.
-
-// //Activity 2.6
-// ///Imagine you're a programmer for a social media platform. You have been tasked with building a prototype for a mutual followers program. Create 2 arrays of followers e.g. bexsFollowers & GeorgesFollowers. In these arrays place 4 names as strings. Make sure there are 2 names that are in BOTH arrays. Using a nested loop iterate over both arrays and console.log out the matching followers.
-
-// //Activity 2.7
-// //Research on do...while loop, find out about the difference between for loop, while loop and do...while loop. Give an examples of each. Waht are the pros and cons?
+for (let i = 0; i < 5; i++) {
+    console.log(`Iteration number ${i}`);
+  }
+//   //For loops are clear and concise and can be easier to understand, as initialization, condition and increment/decrement are all in one place. This method is ideal for iterating over arrays. For loops can unfortunately be less readable when the loop logic is complex and is not suitable for situations where the number of iterations is not known beforehand.
