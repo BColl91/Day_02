@@ -125,4 +125,4 @@
 // for (let i = 0; i < 10; i++) {
 //     console.log(`Iteration number ${i}`);
 //   }
-////For loops are clear and concise which can be easier to understand, as initialization, condition and increment/decrement are all in one place. This method is ideal for arrays. For loops can unfortunately be less readable when the loop logic is complex.//
+////For loops are clear and concise which can be easier to understand, as initialization, condition and increment/decrement are all in one place. This method is seen as ideal for arrays. the cons are that for loops can unfortunately be less readable when the loop logic is complex.//
